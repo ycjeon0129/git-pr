@@ -1,3 +1,6 @@
 # util.py
-def sum(a, b):
-    return a + b
+def sum(items):
+    s = 0
+    for item in items:
+        s += item
+    return s
